@@ -18,8 +18,11 @@ public class test : MonoBehaviour
         {
             p = true;
         }
-            
-        else if (col.gameObject.tag == "Untagged")
+        else if (col.gameObject.tag == "Pc")
+        {
+            a = true;
+        }
+        else if (col.gameObject.tag == "Agent")
         {
             a = true;
         }
